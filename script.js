@@ -41,17 +41,17 @@ do{
     }
 
     else if (Peserta == Musuh){
-        alert(`Anda seri, musuh memilih ${Musuh}`);
+        alert("Anda seri, musuh memilih sama");
     }
 
     else{
         alert(`Anda kalah, musuh memilih ${Musuh} atau anda mengetik ${Peserta}, maka tidak terdeteksi`)
     }
 
-    var Mengulang = confirm("Apakah anda mau mengulang permainan?")
+    var Mengulang = confirm("Apakah anda mau mengulang permainan?");
 
     if (Mengulang == false){
-        document.write("Terima kasih sudah memainkan permainan ini!")
+        document.write("Terima kasih sudah memainkan permainan ini!");
       }
 
 } while (Mengulang == true)
